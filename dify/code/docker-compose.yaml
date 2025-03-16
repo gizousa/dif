@@ -517,7 +517,7 @@ services:
 
   # The DifySandbox
   sandbox:
-    image: langgenius/dify-sandbox:lates
+    image: langgenius/dify-sandbox:0.2.10
     restart: always
     environment:
       # The DifySandbox configurations
@@ -539,7 +539,7 @@ services:
 
   # plugin daemon
   plugin_daemon:
-    image: langgenius/dify-plugin-daemon:lates-local
+    image: langgenius/dify-plugin-daemon:0.0.4-local
     restart: always
     environment:
       # Use the shared environment variables.
