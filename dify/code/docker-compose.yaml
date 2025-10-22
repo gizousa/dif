@@ -652,7 +652,7 @@ services:
 
   # The Weaviate vector store.
   weaviate:
-    image: semitechnologies/weaviate:1.19.0
+    image: semitechnologies/weaviate:1.24.0
     profiles:
       - ''
       - weaviate
